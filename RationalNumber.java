@@ -55,12 +55,11 @@ public class RationalNumber extends RealNumber
   *@return the value expressed as "3/4" or "8/3"
   */
   public String toString(){
-      return ""+nume+"/"+deno);
+      return "" + nume + "/" + deno;
   }
 
  /**Calculate the GCD of two integers.
-  *@param a the first integers
-  *@param b the second integer
+  *@param a the first integers  *@param b the second integer
   *@return the value of the GCD
   */
   private static int gcd(int a, int b){
@@ -78,7 +77,7 @@ public class RationalNumber extends RealNumber
   *reduced after construction.
   */
   private void reduce(){
-      
+      return 0;
   }
 
 
@@ -90,7 +89,7 @@ public class RationalNumber extends RealNumber
   *Return a new RationalNumber that is the product of this and the other
   */
   public RationalNumber multiply(RationalNumber other){
-    return null;
+      return "" + (this.nume * other.getNumerator()) + "/" + (this.deno * other.getDenominator()) ;
   }
 
   /**
